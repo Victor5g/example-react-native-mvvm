@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "example-mvvm",
+    "slug": "example-mvvm",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
