@@ -1,0 +1,400 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Unit-Test: <LoginView/> Renders correctly 1`] = `
+<RCTSafeAreaView
+  style={
+    Object {
+      "alignContent": "center",
+      "flex": 1,
+      "justifyContent": "center",
+      "paddingHorizontal": 20,
+    }
+  }
+>
+  <View>
+    <Text>
+      E-mail
+    </Text>
+    <TextInput
+      onChangeText={[MockFunction]}
+      placeholder="example.email@gmail.com"
+      value=""
+    />
+    <Text>
+      Password
+    </Text>
+    <TextInput
+      onChangeText={[MockFunction]}
+      placeholder="********"
+      value=""
+    />
+  </View>
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        disabled={false}
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        login
+      </Text>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;
+
+exports[`Unit-Test: <LoginView/> Show correctly while is Loading 1`] = `
+<RCTSafeAreaView
+  style={
+    Object {
+      "alignContent": "center",
+      "flex": 1,
+      "justifyContent": "center",
+      "paddingHorizontal": 20,
+    }
+  }
+>
+  <View>
+    <Text>
+      E-mail
+    </Text>
+    <TextInput
+      onChangeText={[MockFunction]}
+      placeholder="example.email@gmail.com"
+      value="test-jest@unit.com"
+    />
+    <Text>
+      Password
+    </Text>
+    <TextInput
+      onChangeText={[MockFunction]}
+      placeholder="********"
+      value="jest@345.98"
+    />
+  </View>
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "disabled": true,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+          Object {},
+        ]
+      }
+    >
+      <Text
+        disabled={true}
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+            Object {
+              "color": "#cdcdcd",
+            },
+          ]
+        }
+      >
+        ...
+      </Text>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;
+
+exports[`Unit-Test: <LoginView/> Show correctly with E-mail 1`] = `
+<RCTSafeAreaView
+  style={
+    Object {
+      "alignContent": "center",
+      "flex": 1,
+      "justifyContent": "center",
+      "paddingHorizontal": 20,
+    }
+  }
+>
+  <View>
+    <Text>
+      E-mail
+    </Text>
+    <TextInput
+      onChangeText={[MockFunction]}
+      placeholder="example.email@gmail.com"
+      value="test-jest@unit.com"
+    />
+    <Text>
+      Password
+    </Text>
+    <TextInput
+      onChangeText={[MockFunction]}
+      placeholder="********"
+      value=""
+    />
+  </View>
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        disabled={false}
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        login
+      </Text>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;
+
+exports[`Unit-Test: <LoginView/> Show correctly with E-mail and Password 1`] = `
+<RCTSafeAreaView
+  style={
+    Object {
+      "alignContent": "center",
+      "flex": 1,
+      "justifyContent": "center",
+      "paddingHorizontal": 20,
+    }
+  }
+>
+  <View>
+    <Text>
+      E-mail
+    </Text>
+    <TextInput
+      onChangeText={[MockFunction]}
+      placeholder="example.email@gmail.com"
+      value="test-jest@unit.com"
+    />
+    <Text>
+      Password
+    </Text>
+    <TextInput
+      onChangeText={[MockFunction]}
+      placeholder="********"
+      value="jest@345.98"
+    />
+  </View>
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        disabled={false}
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        login
+      </Text>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;
+
+exports[`Unit-Test: <LoginView/> Show correctly with Password 1`] = `
+<RCTSafeAreaView
+  style={
+    Object {
+      "alignContent": "center",
+      "flex": 1,
+      "justifyContent": "center",
+      "paddingHorizontal": 20,
+    }
+  }
+>
+  <View>
+    <Text>
+      E-mail
+    </Text>
+    <TextInput
+      onChangeText={[MockFunction]}
+      placeholder="example.email@gmail.com"
+      value=""
+    />
+    <Text>
+      Password
+    </Text>
+    <TextInput
+      onChangeText={[MockFunction]}
+      placeholder="********"
+      value="jest@345.98"
+    />
+  </View>
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        disabled={false}
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        login
+      </Text>
+    </View>
+  </View>
+</RCTSafeAreaView>
+`;
