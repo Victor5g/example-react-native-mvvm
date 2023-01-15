@@ -7,9 +7,20 @@ export interface loginDTO {
 }
 
 export const login = async ({ email, password }: loginDTO) => {
-  const { data } = await client.post<UserModel>("/auth/login", {
-    email,
-    password,
+  // const { data } = await client.post<UserModel>("/auth/login", {
+  //   email,
+  //   password,
+  // });
+  // return data;
+
+  return new Promise((resolve) => {
+    return setTimeout(
+      () =>
+        resolve({
+          status: 200,
+          data: { email: "Victor Morramidy", password: "#$Jh87DF" },
+        }),
+      3000
+    );
   });
-  return data;
 };
